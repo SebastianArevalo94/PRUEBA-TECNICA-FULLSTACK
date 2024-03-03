@@ -1,0 +1,318 @@
+[
+  {
+    "ContainingType": "API_SEBASTIAN.Controllers.AsignaturasController",
+    "Method": "CrearAsignatura",
+    "RelativePath": "api/Asignaturas/CrearAsignatura",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "asignatura",
+        "Type": "API_SEBASTIAN.Models.Asignatura",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_SEBASTIAN.Controllers.AsignaturasController",
+    "Method": "EditarAsignatura",
+    "RelativePath": "api/Asignaturas/EditarAsignatura",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newData",
+        "Type": "API_SEBASTIAN.Models.Asignatura",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_SEBASTIAN.Controllers.AsignaturasController",
+    "Method": "EliminarAsignatura",
+    "RelativePath": "api/Asignaturas/EliminarAsignatura/{Id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_SEBASTIAN.Controllers.AsignaturasController",
+    "Method": "GetAsignaturaById",
+    "RelativePath": "api/Asignaturas/GetAsignaturaById/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_SEBASTIAN.Controllers.AsignaturasController",
+    "Method": "GetAsignaturas",
+    "RelativePath": "api/Asignaturas/GetAsignaturas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_SEBASTIAN.Controllers.CalificacionesController",
+    "Method": "CrearCalificacion",
+    "RelativePath": "api/Calificaciones/CrearCalificacion",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "calificacion",
+        "Type": "API_SEBASTIAN.Models.Calificaciones",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_SEBASTIAN.Controllers.CalificacionesController",
+    "Method": "EditarCalificacion",
+    "RelativePath": "api/Calificaciones/EditarCalificacion",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "calificacion",
+        "Type": "API_SEBASTIAN.Models.Calificaciones",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_SEBASTIAN.Controllers.CalificacionesController",
+    "Method": "EliminarCalificacion",
+    "RelativePath": "api/Calificaciones/EliminarCalificacion/{Id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_SEBASTIAN.Controllers.CalificacionesController",
+    "Method": "GetCalificacionById",
+    "RelativePath": "api/Calificaciones/GetCalificacionById/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_SEBASTIAN.Controllers.CalificacionesController",
+    "Method": "GetCalificaciones",
+    "RelativePath": "api/Calificaciones/GetCalificaciones",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_SEBASTIAN.Controllers.EstudiantesController",
+    "Method": "CreateEstudiante",
+    "RelativePath": "api/Estudiantes/CrearEstudiante",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "estudiante",
+        "Type": "API_SEBASTIAN.Models.Estudiante",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_SEBASTIAN.Controllers.EstudiantesController",
+    "Method": "EditarEstudiante",
+    "RelativePath": "api/Estudiantes/EditarEstudiante",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newData",
+        "Type": "API_SEBASTIAN.Models.Estudiante",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_SEBASTIAN.Controllers.EstudiantesController",
+    "Method": "DeleteEstudiante",
+    "RelativePath": "api/Estudiantes/EliminarEstudiante/{Id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_SEBASTIAN.Controllers.EstudiantesController",
+    "Method": "GetEstudianteById",
+    "RelativePath": "api/Estudiantes/GetEstudianteById/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_SEBASTIAN.Controllers.EstudiantesController",
+    "Method": "GetEstudiantes",
+    "RelativePath": "api/Estudiantes/GetEstudiantes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_SEBASTIAN.Controllers.ProfesoresController",
+    "Method": "CrearProfesor",
+    "RelativePath": "api/Profesores/CrearProfesor",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "profesor",
+        "Type": "API_SEBASTIAN.Models.Profesor",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_SEBASTIAN.Controllers.ProfesoresController",
+    "Method": "EditarProfesor",
+    "RelativePath": "api/Profesores/EditarProfesor",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newData",
+        "Type": "API_SEBASTIAN.Models.Profesor",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_SEBASTIAN.Controllers.ProfesoresController",
+    "Method": "EliminarProfesor",
+    "RelativePath": "api/Profesores/EliminarProfesor/{Id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_SEBASTIAN.Controllers.ProfesoresController",
+    "Method": "GetProfesorById",
+    "RelativePath": "api/Profesores/GetProfesorById/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_SEBASTIAN.Controllers.ProfesoresController",
+    "Method": "GetProfesores",
+    "RelativePath": "api/Profesores/GetProfesores",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_SEBASTIAN.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[API_SEBASTIAN.WeatherForecast, API_SEBASTIAN, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
